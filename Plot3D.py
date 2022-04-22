@@ -9,7 +9,7 @@ fig = plt.figure()
 ax = fig.gca(projection='3d')
  
 # 1D arrays for x and y coordinates
-n_points = 500
+n_points = 300
 x_min,x_max = -5,5
 y_min,y_max = -5,5
 X = np.linspace(x_min,x_max, n_points)
